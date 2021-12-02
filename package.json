@@ -1,0 +1,13 @@
+{
+  "name": "fcm_sender",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jose Landero",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^10.0.0"
+  },
+  "scripts": {
+    "send": "GOOGLE_APPLICATION_CREDENTIALS=\"./meru-app.json\" node sender.js"
+  }
+}
